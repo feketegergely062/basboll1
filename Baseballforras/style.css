@@ -2,18 +2,42 @@ body {
     margin: 0;
     padding: 0;
     background-position-x: 150px;
+    background: url('./baseball-background.jpg') no-repeat;
 }
 
 #content {
     padding: 20px;
     background-color: rgba(255,255,255,0.85);
+    width: 800px;
+    margin: 150px auto 0 auto;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    
 }
 
 .frame {
     padding:20px;
     margin:10px;
+    float: right;
+    border-left: 2px solid black;
+    border-right: 2px  solid black;
 }
 
 .frame img{
     width: 150px;
+
+}
+.imgcaption{
+    text-align: center;
+    font-style: italic;
+}
+.kiemelt{
+    color: red;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
 }
